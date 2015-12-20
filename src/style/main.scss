@@ -1,0 +1,35 @@
+@import "reset";
+@import "base";
+
+body {
+  font-size: 16px;
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: $screen-md-min;
+}
+header {
+  .container {
+    h1 {
+      font-size: 3em;
+      text-align: center;
+    }
+  }
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+footer {
+  .copyright {
+    text-align: center;
+  }
+}
+@media (max-width: $screen-sm-max) {
+  .container {
+    width: 100%;
+  }
+}

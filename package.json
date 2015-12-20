@@ -1,0 +1,33 @@
+{
+  "name": "web-template",
+  "version": "0.0.1",
+  "description": "gulp(ejs, sass, css-minify, js-minify, image-min, browser-sync)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nagatani/web-template.git"
+  },
+  "author": "Nagatani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nagatani/web-template/issues"
+  },
+  "homepage": "https://github.com/Nagatani/web-template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-cssnext": "^1.0.1",
+    "gulp-ejs": "^1.2.2",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "run-sequence": "^1.1.5"
+  }
+}

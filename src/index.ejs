@@ -1,0 +1,40 @@
+<%
+  var title = "template site";
+  var description = "template site - description";
+  var keyword = "";
+  var author = "";
+  var url = "";
+  var og_image_url = "";
+  var twc_site = "";
+  var twc_image_url = "";
+%>
+<% include ejs/_html_head %>
+<header>
+  <div class="container">
+    <h1>template site!</h1>
+  </div>
+</header>
+<section class="container row">
+  <aside class="col-3">
+    <h3>Menu</h3>
+    <nav>
+      <ul>
+        <li><a href="#">menu1</a></li>
+        <li><a href="#">menu2</a></li>
+        <li><a href="#">menu3</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <article class="col-9">
+    <h2>Main Contents</h2>
+    <p>Main Contents</p>
+  </article>
+</section>
+<footer>
+  <div class="container">
+    <p class="copyright">
+      &copy; 2015
+    </p>
+  </div>
+</footer>
+<% include ejs/_html_suffix %>

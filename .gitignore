@@ -1,2 +1,11 @@
 .sass-cache
 *.css.map
+
+node_modules/
+*.log
+build/
+.tmp/
+
+.DS_Store
+Thumbs.db
+*~
