@@ -1,5 +1,6 @@
-web-template gulp(ejs, sass, css-minify, js-minify, image-min, browser-sync)
+web-template
 ====
+gulp(ejs, sass, cssnext, css-minify, js-uglify, image-min, browser-sync)
 
 タスクランナーのgulpを使用し、Web制作のテンプレートを作成します。
 
